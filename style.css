@@ -1,0 +1,17 @@
+html{
+   background-color: blue;
+}
+
+.container {
+   width: 350px;
+   margin: 32px auto 0 auto;
+}
+
+.panel {
+   background-color: darkblue;
+}
+
+h1 {
+   text-align: center;
+   color: pink;
+}
