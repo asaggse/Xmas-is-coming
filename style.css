@@ -34,13 +34,13 @@ h1 {
 }
 
 .counter-block {
-   background-color: white;
+   color: white;
    text-align: center;
    font-weight: 600;
 }
 
 .counter-block:last-child {
-   color: yellow;
+   color: #f2ad41;
 }
 
 .counter-block-number {
