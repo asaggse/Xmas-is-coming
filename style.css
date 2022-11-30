@@ -1,5 +1,13 @@
+/* CSS Reset */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
 html{
-   background-color: blue;
+   background-color: #4B61D1;
+   font-family: 'Livvic', sans-serif;
 }
 
 .container {
@@ -9,9 +17,37 @@ html{
 
 .panel {
    background-color: darkblue;
+   padding: 16px 24px;
+   border-radius: 8px;
 }
 
 h1 {
    text-align: center;
    color: pink;
+   margin-bottom: 24px;
+   font-size: 30px;
+}
+
+.counter {
+   display: flex;
+   justify-content: space-between;
+}
+
+.counter-block {
+   background-color: white;
+   text-align: center;
+   font-weight: 600;
+}
+
+.counter-block:last-child {
+   color: yellow;
+}
+
+.counter-block-number {
+   font-size: 48px;
+
+}
+
+.counter-block-label {
+   font-size: 20px;
 }
