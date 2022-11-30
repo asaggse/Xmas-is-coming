@@ -20,7 +20,7 @@ img {
    max-width: 100%;
 }
 
-html{
+html {
    background-color: #4b61d1;
    font-family: 'Livvic', sans-serif;
 }
@@ -31,10 +31,17 @@ html{
    border: 2px dashed red;
 }
 
+.xmas-stage {
+   position: relative;
+}
+
 .panel {
    background-color: #120945;
    padding: 16px 24px;
    border-radius: 8px;
+   position: absolute;
+   top: 90px;
+   width: 100%;
 }
 
 h1 {
