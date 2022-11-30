@@ -1,3 +1,14 @@
+/*
+    Colors:
+    blue: #4b61d1;
+    dark blue: #120945;
+    gray: #d4d7f5;
+    green: #306753;
+    pink: #de7eb6;
+    yellow: #f2ad41;
+    white: #ffffff;
+*/
+
 /* CSS Reset */
 * {
    box-sizing: border-box;
@@ -5,25 +16,30 @@
    padding: 0;
 }
 
+img {
+   max-width: 100%;
+}
+
 html{
-   background-color: #4B61D1;
+   background-color: #4b61d1;
    font-family: 'Livvic', sans-serif;
 }
 
 .container {
    width: 350px;
    margin: 32px auto 0 auto;
+   border: 2px dashed red;
 }
 
 .panel {
-   background-color: darkblue;
+   background-color: #120945;
    padding: 16px 24px;
    border-radius: 8px;
 }
 
 h1 {
    text-align: center;
-   color: pink;
+   color: #de7eb6;
    margin-bottom: 24px;
    font-size: 30px;
 }
@@ -34,7 +50,7 @@ h1 {
 }
 
 .counter-block {
-   color: white;
+   color: #ffffff;
    text-align: center;
    font-weight: 600;
 }
