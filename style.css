@@ -120,4 +120,36 @@ h1 {
 .ball_5 {
    top: 326px;
    left: 155px;
+} 
+
+.gift:hover {
+   animation-name: jingle;
+   animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+.ball:hover {
+   animation-name: bump;
+   animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+/* Animation */
+@keyframes jingle {
+   from {
+      transform: rotate(-15deg);
+   } to {
+      transform: rotate(15deg);
+   }
+}
+
+@keyframes bump {
+   from {
+      transform: scale(1);
+   } to {
+      transform: scale(1.2);
+   }
+
 }
