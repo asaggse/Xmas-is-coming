@@ -17,12 +17,12 @@ const nowInMs = new Date().getTime();
 const diff = endDateInMs - nowInMs;
 
 // table in ms
-const secondsInMs = 1000;
-const minutesInMs = 60 * secondsInMs;
-const hoursInMs = 60 * minutesInMs;
-const daysInMs = 24 * hoursInMs;
+const secondInMs = 1000;
+const minuteInMs = 60 * secondInMs;
+const hourInMs = 60 * minuteInMs;
+const dayInMs = 24 * hourInMs;
 
-
-daysElm.innerHTML = Math.floor(diff / daysInMs);
-
-console.log( 4 % 2);
+daysElm.innerHTML = Math.floor(diff / dayInMs);
+hoursElm.innerHTML = Math.floor((diff % dayInMs) / hourInMs);
+minutesElm.innerHTML = Math.floor((diff % hourInMs) / minuteInMs);
+secondsElm.innerHTML = Math.floor((diff % minuteInMs) / secondInMs);
