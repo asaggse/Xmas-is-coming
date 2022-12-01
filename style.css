@@ -29,7 +29,6 @@ html {
 .container {
    width: 350px;
    margin: 32px auto 0 auto;
-   border: 2px dashed red;
 }
 
 .xmas-stage {
