@@ -84,17 +84,17 @@ h1 {
 }
 .gift_1 {
    bottom: 50px;
-   right: 30px; 
+   right: 30px;
 }
 .gift_2 {
    bottom: 50px;
-   right: 36px;
-   width: 120px; 
+   left: 36px;
+   width: 120px;
 }
 .gift_3 {
    bottom: 110px;
-   right: 68px;
-   width: 60px; 
+   left: 68px;
+   width: 60px;
 }
 
 /* Glass Balls */
@@ -112,11 +112,11 @@ h1 {
 }
 .ball_3 {
    top: 255px;
-   left: 102px;
+   right: 102px;
 }
 .ball_4 {
    top: 360px;
-   left: 75px;
+   right: 75px;
 }
 .ball_5 {
    top: 326px;
