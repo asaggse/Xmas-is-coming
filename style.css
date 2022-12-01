@@ -23,6 +23,7 @@ img {
 html {
    background-color: #4b61d1;
    font-family: 'Livvic', sans-serif;
+   line-height: 1;
 }
 
 .container {
@@ -33,6 +34,7 @@ html {
 
 .xmas-stage {
    position: relative;
+   height: 600px;
 }
 
 .panel {
@@ -73,4 +75,50 @@ h1 {
 
 .counter-block-label {
    font-size: 20px;
+}
+
+/* Presents */
+.gift {
+   position: absolute;
+   width: 120px;
+}
+.gift_1 {
+   bottom: 50px;
+   right: 30px; 
+}
+.gift_2 {
+   bottom: 50px;
+   right: 36px;
+   width: 120px; 
+}
+.gift_3 {
+   bottom: 110px;
+   right: 68px;
+   width: 60px; 
+}
+
+/* Glass Balls */
+.ball {
+   position: absolute;
+   width: 65px;
+}
+.ball_1 {
+   top: 340px;
+   left: 86px;
+}
+.ball_2 {
+   top: 274px;
+   left: 110px;
+}
+.ball_3 {
+   top: 255px;
+   left: 102px;
+}
+.ball_4 {
+   top: 360px;
+   left: 75px;
+}
+.ball_5 {
+   top: 326px;
+   left: 155px;
 }
