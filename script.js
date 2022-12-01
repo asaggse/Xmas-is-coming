@@ -1,2 +1,2 @@
-const myNumber = true;
-console.log(myNumber);
+const daysElm = document.querySelector('#days');
+daysElm.innerHTML = 25;
