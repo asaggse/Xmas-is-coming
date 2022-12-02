@@ -81,15 +81,18 @@ h1 {
    position: absolute;
    width: 120px;
 }
+
 .gift_1 {
    bottom: 50px;
    right: 30px;
 }
+
 .gift_2 {
    bottom: 50px;
    left: 36px;
    width: 120px;
 }
+
 .gift_3 {
    bottom: 110px;
    left: 68px;
@@ -101,26 +104,31 @@ h1 {
    position: absolute;
    width: 65px;
 }
+
 .ball_1 {
    top: 340px;
    left: 86px;
 }
+
 .ball_2 {
    top: 274px;
    left: 110px;
 }
+
 .ball_3 {
    top: 255px;
    right: 102px;
 }
+
 .ball_4 {
    top: 360px;
    right: 75px;
 }
+
 .ball_5 {
    top: 326px;
    left: 155px;
-} 
+}
 
 .gift:hover {
    animation-name: jingle;
@@ -140,7 +148,9 @@ h1 {
 @keyframes jingle {
    from {
       transform: rotate(-15deg);
-   } to {
+   }
+
+   to {
       transform: rotate(15deg);
    }
 }
@@ -148,7 +158,9 @@ h1 {
 @keyframes bump {
    from {
       transform: scale(1);
-   } to {
+   }
+
+   to {
       transform: scale(1.2);
    }
 

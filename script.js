@@ -19,13 +19,13 @@ const dayInMs = 24 * hourInMs;
 
 const counterTimer = setInterval(timer, 1000);
 
-function timer(){
+function timer() {
    // Today in ms
    const nowInMs = new Date().getTime();
-   
+
    const diff = endDateInMs - nowInMs;
 
-   if(diff > 0){
+   if (diff > 0) {
       daysElm.innerHTML = Math.floor(diff / dayInMs);
       hoursElm.innerHTML = Math.floor((diff % dayInMs) / hourInMs);
       minutesElm.innerHTML = Math.floor((diff % hourInMs) / minuteInMs);
