@@ -3,10 +3,10 @@
     blue: #4b61d1;
     dark blue: #120945;
     gray: #d4d7f5;
-    green: #306753;
+    green: #008c45;
     pink: #de7eb6;
     yellow: #f2ad41;
-    white: #ffffff;
+    white: #f4f5f0;
 */
 
 /* CSS Reset */
@@ -58,7 +58,7 @@ h1 {
 }
 
 .counter-block {
-   color: #ffffff;
+   color: #f4f5f0;
    text-align: center;
    font-weight: 600;
 }
