@@ -8,7 +8,7 @@ const secondsElm = document.querySelector('#seconds');
 const panelElm = document.querySelector('.panel');
 
 // Christmas's day
-const endDate = new Date("December 25 2022");
+const endDate = new Date("December 25 2023");
 const endDateInMs = endDate.getTime();
 
 // table in ms
